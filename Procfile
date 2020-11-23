@@ -1,0 +1,1 @@
+web: gunicorn tweetme3.asgi --log-file -
