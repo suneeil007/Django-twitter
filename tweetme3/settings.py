@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '86#*ojixmzmncoz(m#t#ssb%bht6(9&qzogirwgux2a+02-^8f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'suneeil-app.herokuapp.com']
 LOGIN_URL = "/login"
 MAX_TWEET_LENGTH = 240
 TWEET_ACTION_OPTION = ["like", "unlike", "retweet"]
