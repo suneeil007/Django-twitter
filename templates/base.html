@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <title>Django Bootcamp | {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+</head>    
+<body>
+ {% block content %}
+ {% endblock %}
+ 
+ {% block js %}
+ {% endblock %}
+</body>
+</html>
