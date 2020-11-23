@@ -1,1 +1,1 @@
-web: gunicorn tweetme3.asgi --log-file -
+web: gunicorn tweetme3.wsgi --log-file -
